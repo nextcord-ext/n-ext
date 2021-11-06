@@ -23,7 +23,7 @@ extras_require = {
         'git+github.com/alentoghostflame/nextcord.git#alento_salsh_commands',     
     ],
     'core': ['nextcord']
-
+}
 
 setup(
     name="n-ext",
