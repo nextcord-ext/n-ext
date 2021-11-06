@@ -6,6 +6,24 @@ with open("requirements.txt") as f:
 
 version = "2021.1"
 
+extras_require = {
+    'menus': [
+        'nextcord-ext-menus',
+    ],
+    'ipc': [
+        'nextcord-ext-ipc',
+    ],
+    'events': [
+        'nextcord-ext-events',
+    ],
+    'alternatives': [
+        'nextcord-ext-alternatives',
+    ],
+    'slash': [
+        'git+github.com/alentoghostflame/nextcord.git#alento_salsh_commands',     
+    ],
+    'core': ['nextcord']
+
 setup(
     name="nextcord-ext-events",
     author="VincentRPS",
@@ -15,6 +33,7 @@ setup(
     license="Apache Software License",
     description="Project interface for nextcord-ext's",
     install_requires=requirements,
+    extras_require=extras_require,
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
