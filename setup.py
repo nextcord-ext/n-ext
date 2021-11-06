@@ -24,11 +24,12 @@ extras_require = {
     ],
     'core': ['nextcord']
 
+
 setup(
-    name="nextcord-ext-events",
-    author="VincentRPS",
+    name="n-ext",
+    author="nextcord-ext",
     python_requires=">=3.8.0",
-    url="https://github.com/vincentrps/nextcord-ext-events",
+    url="https://github.com/nextcord-ext/n-ext",
     version=version,
     license="Apache Software License",
     description="Project interface for nextcord-ext's",
