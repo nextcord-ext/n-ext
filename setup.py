@@ -18,7 +18,7 @@ extras_require = {
     'alternatives': [
         'nextcord-ext-alternatives==2021.1',
     ],
-    'core': ['nextcord==2.0.0a'],
+    'core': ['nextcord==2.0.0a3'],
         
     'lava': [
         'nextcord-ext-lava==3.1.4'],
