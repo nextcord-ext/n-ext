@@ -8,21 +8,21 @@ version = "2021.1"
 
 extras_require = {
     'menus': [
-        'nextcord-ext-menus',
+        'nextcord-ext-menus==1.3.2',
     ],
     'ipc': [
-        'nextcord-ext-ipc',
+        'nextcord-ext-ipc==2.2.1',
     ],
     'events': [
-        'nextcord-ext-events',
+        'nextcord-ext-events==0.1.0a0',
     ],
     'alternatives': [
-        'nextcord-ext-alternatives',
+        'nextcord-ext-alternatives==2021.1',
     ],
     'slash': [
-        'git+github.com/alentoghostflame/nextcord.git#alento_salsh_commands',     
+        'git+github.com/alentoghostflame/nextcord#alento_slash_commands',     
     ],
-    'core': ['nextcord']
+    'core': ['nextcord==2.0.0a']
 }
 
 setup(
