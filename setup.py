@@ -19,9 +19,6 @@ extras_require = {
     'alternatives': [
         'nextcord-ext-alternatives==2021.1',
     ],
-    'slash': [
-        'git+github.com/alentoghostflame/nextcord#alento_slash_commands',     
-    ],
     'core': ['nextcord==2.0.0a']
 }
 
