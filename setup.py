@@ -5,7 +5,6 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 version = "2021.1"
-
 extras_require = {
     'menus': [
         'nextcord-ext-menus==1.3.2',
@@ -19,7 +18,13 @@ extras_require = {
     'alternatives': [
         'nextcord-ext-alternatives==2021.1',
     ],
-    'core': ['nextcord==2.0.0a']
+    'core': ['nextcord==2.0.0a'],
+        
+    'lava': [
+        'nextcord-ext-lava==3.1.4'],
+        
+    'music': [
+        'nextcord-ext-lava==3.1.4'],
 }
 
 setup(
